@@ -1,4 +1,6 @@
 safe: true
 permalink: pretty
+markdown: redcarpet
 paginate: 5
 exclude: [readme.md]
+future: false
