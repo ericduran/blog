@@ -19,7 +19,13 @@ layout: default
             <span class="year">{{ page.date | date: '%Y' }}</span>
             </date>
           </p>
+          <p class="tags">
+            {% for category in page.categories %}
+            <span class="category tag">{{ category }}</span>
+            {% endfor %}
+          </p>
         </div>
+
       </div><!-- entry-content -->
       <div class="social">
         <ul class="list-linear">

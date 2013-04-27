@@ -2,9 +2,10 @@
 layout: post
 comment: 1
 title: Tips for AngularJS beginners
-tags:
+categories:
 - angularjs
 - javascript
+
 ---
 
 Some basic angular tips for beginners. These are just things I've notice along the way.
@@ -71,6 +72,7 @@ Which leads us to our last tip. Always pass an array to your controller for prop
 This would save you some hassle down the road when you're getting ready to deploy your app.
 
 Here is our controller with proper annotation
+
 ```js
 
 var myBlog = angular.module('myBlog', []);
@@ -88,6 +90,7 @@ is great since you can just make this a task before running your minifier.
 
 
 In short the tips are:
+
  * Always have a module for your app
  * Don't use global controllers on real apps
  * Make sure to write minifiable code

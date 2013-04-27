@@ -1,5 +1,5 @@
 safe: true
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 markdown: redcarpet
 paginate: 5
 exclude: [readme.md]
