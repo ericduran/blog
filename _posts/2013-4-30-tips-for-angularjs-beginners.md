@@ -5,7 +5,6 @@ title: Tips for AngularJS beginners
 categories:
 - angularjs
 - javascript
-
 ---
 
 Some basic angular tips for beginners. These are just things I've notice along the way.
@@ -38,7 +37,7 @@ This is great because now you'll have a module to create your controller on.
 Which leads us to our second tip. Do not use global function as your controllers.
 It's pretty rare to find an Angular example that doesn't do this. All these examples
 assume you've read the [docs](http://docs.angularjs.org/guide/dev_guide.mvc.understanding_controller)
-(which you really should!) and found this very important line burried deep in their.
+(which you really should!) and found this very important line burried deep in there.
 
 >
 >NOTE: Many of the examples in the documentation show the creation of functions in the
@@ -56,7 +55,7 @@ function myBlogController($scope) {
 ```
 
 Since we now have a module we can follow the docs and use the .controller method to
-create our controller instead.
+create our controller.
 
 ```js
 // Good example.
