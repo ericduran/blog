@@ -7,7 +7,7 @@ categories:
 - javascript
 ---
 
-HTML5 Mode in AngularJS is awesome, you should use it. The one issue people run into
+HTML5 Mode in [AngularJS](http://angularjs.org) is awesome, you should use it. The one issue people run into
 is that you end up having a lot of 404 when a user tries to refresh at an unknow path.
 
 This is mainly because your AngularJS routes aren't actual html pages. An example would
@@ -77,3 +77,5 @@ If you're running your angular app on an apache server you can easily add this r
     RewriteRule (.*) index.html [L]
 </ifModule>
 ```
+
+Note: There is already a pull request to get this feature in [AngularJS Generator](https://github.com/yeoman/generator-angular) project
