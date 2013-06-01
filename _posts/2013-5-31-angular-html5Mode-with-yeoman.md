@@ -8,7 +8,7 @@ categories:
 ---
 
 HTML5 Mode in [AngularJS](http://angularjs.org) is awesome, you should use it. The one issue people run into
-is that you end up having a lot of 404 when a user tries to refresh at an unknow path.
+is that you end up having a lot of 404 when a user tries to refresh at an unknown path.
 
 This is mainly because your AngularJS routes aren't actual html pages. An example would
 be if you have a route in your angular app to /create-order. This url works fine if you
@@ -16,7 +16,7 @@ link to it from inside your app but if a user tries to go directly to that page 
 will return a 404.
 
 This is because AngularJS HTML5 mode uses the History API to
-push a new url to your broswer. Sadly this does require some extra work on the server side
+push a new url to your browser. Sadly this does require some extra work on the server side
 to have those url return the correct content.
 
 Here are some quick ways to fix this:
@@ -78,4 +78,4 @@ If you're running your angular app on an apache server you can easily add this r
 </ifModule>
 ```
 
-Note: There is already a pull request to get this feature in [AngularJS Generator](https://github.com/yeoman/generator-angular) project
+Note: There is already a pull request to get this feature in [AngularJS generator](https://github.com/yeoman/generator-angular) project
