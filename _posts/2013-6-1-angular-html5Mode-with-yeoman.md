@@ -1,3 +1,12 @@
+---
+layout: post
+comment: 1
+title: AngularJS HTML5 Mode with Yeoman
+categories:
+- angularjs
+- javascript
+---
+
 HTML5 Mode in AngularJS is awesome, you should use it. The one issue people run into
 is that you end up having a lot of 404 when a user tries to refresh at an unknow path.
 
