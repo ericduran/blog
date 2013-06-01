@@ -14,7 +14,8 @@ Here are some quick ways to fix this:
 
 If you're using Yeoman you can easily add a new middleware to the Livereload server.
 
-First you need to install connect-modrewrite middleware.
+First you need to install connect-modrewrite middleware (I tried a couple of different
+connect redirect middleware, this was the simplest one).
 
 ```
  npm install connect-modrewrite
@@ -67,4 +68,3 @@ If you're running your angular app on an apache server you can easily add this r
     RewriteRule (.*) index.html [L]
 </ifModule>
 ```
-
