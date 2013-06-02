@@ -79,3 +79,7 @@ If you're running your angular app on an apache server you can easily add this r
 ```
 
 Note: There is already a pull request to get this feature in [AngularJS generator](https://github.com/yeoman/generator-angular) project
+
+Update:
+ See [nginx: send all requests to a single html page](http://stackoverflow.com/questions/7027636/nginx-send-all-requests-to-a-single-html-page)
+ for nginx instructions.
