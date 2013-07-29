@@ -74,6 +74,7 @@ If you're running your angular app on an apache server you can easily add this r
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} !index
+    RewriteCond %{REQUEST_URI} !.*\.(css¦js|html|png) #Add extra extensions needed.
     RewriteRule (.*) index.html [L]
 </ifModule>
 ```
