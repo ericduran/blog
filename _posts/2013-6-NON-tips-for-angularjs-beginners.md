@@ -2,9 +2,10 @@
 layout: post
 comment: 1
 title: Tips for AngularJS beginners
-categories:
-- angularjs
-- javascript
+categories: 
+  - angularjs
+  - javascript
+published: false
 ---
 
 Some basic angular tips for beginners. These are just things I've notice along the way.
@@ -93,4 +94,3 @@ In short the tips are:
  * Always have a module for your app
  * Don't use global controllers on real apps
  * Make sure to write minifiable code
-
