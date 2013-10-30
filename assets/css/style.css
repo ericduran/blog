@@ -1565,18 +1565,14 @@ nav ul, nav ol {
 @media (min-width: 1450px) {
   .main-content {
     border-left: 1px solid rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: white 0px 0px 2px;
-    -moz-box-shadow: white 0px 0px 2px;
-    -o-box-shadow: white 0px 0px 2px;
+    box-shadow: white 0px 0px 2px;
     float: left;
     width: 81%;
     margin-right: -450px;
   }
   .main-content .unit-body {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: white 0px 0px 2px;
-    -moz-box-shadow: white 0px 0px 2px;
-    -o-box-shadow: white 0px 0px 2px;
+    box-shadow: white 0px 0px 2px;
     margin-right: 450px;
     padding: 26px 52px;
     min-height: 1050px;
