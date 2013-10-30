@@ -191,17 +191,20 @@ li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
   content: "\f081";
 }
 
+.icon-twitter:before {
+  content: "\f099";
+}
+
 .icon-linkedin-sign:before {
   content: "\f08c";
 }
 
-.icon-github-sign:before {
-  content: "\f092";
+.icon-linkedin:before {
+  content: "\f0e1";
 }
 
-
-.icon-twitter:before {
-  content: "\f099";
+.icon-github-sign:before {
+  content: "\f092";
 }
 
 .icon-github:before {
@@ -214,110 +217,6 @@ li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
 
 .icon-google-plus:before {
   content: "\f0d5";
-}
-
-.icon-linkedin:before {
-  content: "\f0e1";
-}
-
-.icon-fighter-jet:before {
-  content: "\f0fb";
-}
-
-.icon-beer:before {
-  content: "\f0fc";
-}
-
-.icon-h-sign:before {
-  content: "\f0fd";
-}
-
-.icon-plus-sign-alt:before {
-  content: "\f0fe";
-}
-
-.icon-double-angle-left:before {
-  content: "\f100";
-}
-
-.icon-double-angle-right:before {
-  content: "\f101";
-}
-
-.icon-double-angle-up:before {
-  content: "\f102";
-}
-
-.icon-double-angle-down:before {
-  content: "\f103";
-}
-
-.icon-angle-left:before {
-  content: "\f104";
-}
-
-.icon-angle-right:before {
-  content: "\f105";
-}
-
-.icon-angle-up:before {
-  content: "\f106";
-}
-
-.icon-angle-down:before {
-  content: "\f107";
-}
-
-.icon-desktop:before {
-  content: "\f108";
-}
-
-.icon-laptop:before {
-  content: "\f109";
-}
-
-.icon-tablet:before {
-  content: "\f10a";
-}
-
-.icon-mobile-phone:before {
-  content: "\f10b";
-}
-
-.icon-circle-blank:before {
-  content: "\f10c";
-}
-
-.icon-quote-left:before {
-  content: "\f10d";
-}
-
-.icon-quote-right:before {
-  content: "\f10e";
-}
-
-.icon-spinner:before {
-  content: "\f110";
-}
-
-.icon-circle:before {
-  content: "\f111";
-}
-
-.icon-reply:before {
-  content: "\f112";
-}
-
-.icon-github-alt:before {
-  content: "\f113";
-}
-
-.icon-folder-close-alt:before {
-  content: "\f114";
-}
-
-.icon-folder-open-alt:before {
-  content: "\f115";
 }
 
 @font-face {
