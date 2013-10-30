@@ -81,142 +81,42 @@ textarea {
 }
 
 
-/*
- *  Font Awesome 3.0.2
- *  License
- *  -------------------------------------------------------
- *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("../font/fontawesome-webfont.eot?v=3.0.1");
-  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-family: 'icomoon';
+  src:url('/assets/fonts/icomoon.eot');
+  src:url('/assets/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/icomoon.ttf') format('truetype'),
+    url('/assets/fonts/icomoon.woff') format('woff'),
+    url('/assets/fonts/icomoon.svg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-/*  Font Awesome styles
-    ------------------------------------------------------- */
-[class^="icon-"],
-[class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  /* sprites.less reset */
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: normal;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-  margin-top: 0;
-}
-
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
+[class*="icon-"] {
+  font-family: 'icomoon';
   speak: none;
-}
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-/* makes sure icons active on rollover in links */
-a [class^="icon-"],
-a [class*=" icon-"] {
-  display: inline-block;
-}
-
-
-li [class^="icon-"],
-li [class*=" icon-"], .nav li [class^="icon-"],
-.nav li [class*=" icon-"] {
-  display: inline-block;
-  width: 1.25em;
-  text-align: center;
-}
-li [class^="icon-"].icon-large,
-li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
-.nav li [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
-  width: 1.5625em;
-}
-
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-[class^="icon-"].pull-left,
-[class*=" icon-"].pull-left {
-  margin-right: .3em;
-}
-[class^="icon-"].pull-right,
-[class*=" icon-"].pull-right {
-  margin-left: .3em;
-}
-
-
-@-moz-document url-prefix() {
-  .icon-spin {
-    height: .9em;
-  }
-
-  .btn .icon-spin {
-    height: auto;
-  }
-
-  .icon-spin.icon-large {
-    height: 1.25em;
-  }
-
-  .btn .icon-spin.icon-large {
-    height: .75em;
-  }
-}
-
-.icon-twitter-sign:before {
-  content: "\f081";
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-twitter:before {
-  content: "\f099";
+  content: "\e600";
 }
-
-.icon-linkedin-sign:before {
-  content: "\f08c";
-}
-
-.icon-linkedin:before {
-  content: "\f0e1";
-}
-
-.icon-github-sign:before {
-  content: "\f092";
-}
-
 .icon-github:before {
-  content: "\f09b";
+  content: "\e601";
 }
-
-.icon-google-plus-sign:before {
-  content: "\f0d4";
+.icon-google:before {
+  content: "\e602";
 }
-
-.icon-google-plus:before {
-  content: "\f0d5";
+.icon-linkedin:before {
+  content: "\e603";
 }
 
 /* GENERIC
