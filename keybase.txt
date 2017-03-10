@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ericduran
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ericduran.io
+  * I am ericduran (https://keybase.io/ericduran) on keybase.
+  * I have a public key with fingerprint CE82 BFC0 DA5E 4976 2366  94CC 9488 9238 3E65 5119
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012083c17db5e93c7bd57ffa720df9a00fbf4535b6d3a32dd106264cb6ff7bc9102e0a",
+            "fingerprint": "ce82bfc0da5e4976236694cc948892383e655119",
+            "host": "keybase.io",
+            "key_id": "948892383e655119",
+            "kid": "01014787256df29bfb5a91601212e2f1131834840adced5ed3f7801093f5e66b41310a",
+            "uid": "53ade842d159c429c99cf5bbf2653400",
+            "username": "ericduran"
+        },
+        "service": {
+            "hostname": "ericduran.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1489126069,
+    "expire_in": 157680000,
+    "prev": "cc2f84a6f58879ede5151f508f0e3dc1edfb43a9797eacd841e71b201edf5c23",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMNtAnicbVJrUFVVGL08ZHiYAilKxus4EyJXO+8HhI6MSaLgMIPxULqec/becBDu
+vdxzLy9lAKMGjQiYfGDZDKGSFo5MAsKABpUTUo6C8bICoWB8DZWWUCSdQ/mnaf/Z
+s79vrbXX+ub74hkXg6fTu+U1/AaY4O/U21XrMCR3RzfvwyQLKMAi9mF74cIFswBU
+7aa9CsAiMJwgcZ6SCQ5IDBQomZMAwyEkciQOkCDiOJIQzVCMxAJKpEgACJwlWVqW
+WIQ4SRYInIS4iBkxpJjToc1qU8x2TVaGPCkhGQciA2mBY0mKZQValgWa5wWS4inI
+MgxBCBoxw6LqDM2cJKpwvWLRatrDtGDvf/BPfeMEzfEcybAAkYKEJEYUCFaLQ5CQ
+RARBETxF8zQuAhkCBgIKcbxGEijEQJaVaA2w4NuxIMdQIoA8TQKCEWSaFGRBkBEj
+SYhkGYrGcR2oQptZzIYaGtoUGThsohkrMmJaOVeRoT5ZPcp/If8EstosdotsydI6
+GXa7VY3QmfYCqw7Ng5LpXxGTpJiBNkiNkQttqmIxYxGEhpTtiq5K0LxAkCzOCkYM
+5lsVGzQpOoLhWB7Xjv4PzNXHL5OIp0UWMTzPCRBAhmAIxOA8wiEFZAICJNGUKHAC
+B0UZ8DQBOUIicb3ByCSF6bFyzBZNm9V8iumapqqkm0W7wwaxou6u3a4GJ0+D2yJn
+fcMMnh7eT/fuqOBtqKhFbY3DSVGHYdzs3CvmQynY/pdaH99Ymc+nvtdRghfeacmL
+C77q7TVZZvIzVu58P3hPYtr3G9zbMuX+5c/d3vHN1qBbD3PKVf/I6rrTN6feDjzm
+djMsdZ6ZKOgcD237cOXIgeYjN/7qKG7x8HKvV72Svq2EK+YvvJxj7ev+uL37hzLg
+Y76ilNdVdjWOV1w0FZ5PSJSrn3RjmZ/mLzWimoSft141tuz4qcYO1YSDRdvPDGSX
+SWKfc0VAz5K55OM/OnJDJ5NOR/k+W32Ar3fqcw5JGFXh+Uol8FGaK3zdmFXe3jKU
+pNy9tWqg/E6dIXsmMmhZ8yqfNcvnLo3xxU2t9zwehG3xjTwU2/5B3+CbyYWjrdi2
+6EiHz9cu9UVYRmfSi8vCT3Subgh5bThz+0hAcVXKanU8tnOgLvXVL13OPl7x0e24
+3c2j1LUXamOHocvR6NFfdl2O/zyv58yVX0+VlXS4TIddf+M367pNl8PfOT676WHn
+82Ej/dyxnURVa0+2c1vA5An/mYsb75fMbBztrRrb0/jHd35y5uHwlM/WNlyLiV+8
+/pMj9pqKqQGs4eQl15A8957QXYNPeu8FrROCv9rWMd0a2rRkcGh/2ua192evV8UH
+rmn//WTTW3fH4tjSkEezE37jMUOFiRU2a0zWlrPTlTMTaumFB/ORc4sPTvVHNZzz
+XTRUes5t6am2P/8GJe7DWg==
+=Ix2s
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ericduran
+
+==================================================================
