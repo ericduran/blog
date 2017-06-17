@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<article class="blog-post">
- <header>
-  <h1 class="entry-title">{{ page.title }}</h1>
- </header>
+<article class="blog-post" itemscope="blogPost" itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="entry-title" itemprop="name headline">{{ page.title }}</h1>
+  </header>
 
       <div class="entry-content content">
         {{ content }}
         <div class="meta">
           <p class="date-publish">
             Published:
-            <date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
+            <date class="date-pub" title="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
             <span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span>
             <span class="day">{{ page.date | date: '%d' }}</span>
             <span class="year">{{ page.date | date: '%Y' }}</span>
@@ -28,10 +28,10 @@ layout: default
       </div><!-- entry-content -->
       <div class="social">
         <ul class="list-linear">
-          <li><div class="g-plusone" data-size="medium" data-href="http://ericduran.io{{ page.url }}"></div></li>
+          <li><div class="g-plusone" data-size="medium" data-href="https://ericduran.io{{ page.url }}"></div></li>
           <li>
               <div class="twitter-tweet">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ericduran.io{{ page.url }}" data-count="none" data-via="ericjduran" data-lang="en">Tweet</a>
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://ericduran.io{{ page.url }}" data-count="none" data-via="ericjduran" data-lang="en">Tweet</a>
               </div>
           </li>
         </ul>
