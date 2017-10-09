@@ -1,7 +1,7 @@
 ---
 layout: post
 comment: 1
-title: Add JS Modules support to python's simpleHTTPServer
+title: Adding JS Modules support to python's simpleHTTPServer
 categories:
 - javascript
 - python
