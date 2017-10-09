@@ -32,9 +32,11 @@ application/javascript                          js mjs
 Now when running `python -m SimpleHTTPServer 8000` or `python3 -m http.server 8000` JavaScript `.mjs` files just work.
 
 ##### Reference:
+
  <a id="ref-0" href="https://html.spec.whatwg.org/multipage/scripting.html#scriptingLanguages">
   [0] https://html.spec.whatwg.org/multipage/scripting.html#scriptingLanguages
  </a>
+
  <a id="ref-1" href="https://svn.python.org/projects/python/trunk/Lib/mimetypes.py">
   [1] https://svn.python.org/projects/python/trunk/Lib/mimetypes.py
  </a>
