@@ -708,3 +708,7 @@ pre .deletion {
 pre .tex .formula {
   background: #073642;
 }
+
+.highlighter-rouge {
+  color: grey;
+}
